@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    background-color: rgb(104, 97, 245);
+    height: 90px;
+
+}
+.name{
+    width: 50%;
+    padding-top: 35px;
+    float: left;
+    
+    
+}
+.login{
+    width: 50%;
+    float: left;
+}
+.facebook{
+    color: rgb(238, 242, 238);
+    text-decoration: none;
+    font-size: 35px;
+    padding-left: 230px;
+    font-weight: bold;
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    border-color: rgb(255, 255, 255);
+    
+    
+    
+    
+}
+.form{
+    color: snow;
+    margin-left: 129px;
+    padding-top: 14px;
+    
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+}
+.button{
+    background-color: rgb(52, 52, 235);
+    color: beige;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.button:hover{
+    background-color: rgb(241, 49, 49);
+}
+.ssname{
+    border-radius: 3px;
+}
+.forget{
+    text-decoration: none;
+    color: beige;
+}
+.left{
+    width: 40%;
+    padding-left: 109px;
+    padding-top: 25px;
+    padding-left: 200px;
+    float: left;
+}
+.right{
+    width: 40%;
+    float: left;
+}
+.text{
+    color: rgb(50, 50, 109);
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+.img{
+    padding-top: 15px;
+    width: 554px;
+    height: 250px;
+    margin-right: 29px;
+}
+.mainbody{
+    background: linear-gradient(white ,#D3D8E8);
+    width: 100%;
+    height: 650px;
+} 
+.ac{
+    font-size: x-large;
+    padding-left: 5px;
+    padding-top: 17px;
+    
+}
+.fname{
+    height: 38px;
+    width: 270px;
+    border-radius: 6px;
+}
+.sname{
+    height: 38px;
+    width: 270px;
+    border-radius: 6px;
+}
+.mob{
+    height: 38px;
+    width: 555px;
+    border-radius: 6px;
+}
+
+.common{
+    padding-top: 8px;
+}
+.create{
+    font-size: 40px;
+}
+.birth{
+    
+    font-weight: bold;
+    color: rgb(149, 193, 195);
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+.day{
+    width: 60px;
+    height: 25px;
+    background-color: rgb(208, 208, 208);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;;
+    
+    
+}
+.brt{
+    margin-top: 10px;
+}
+.gndr{
+    margin-top: 10px;
+}
+.in{
+    font-size: x-large;
+    font-weight: bold;
+}
+.rdio{
+    margin-top: 10px;
+
+}
+.dcr{
+    color: grey;
+    text-indent: 50px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.loginn{
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 6px;
+    font-weight: bolder;
+    background-color: rgb(22, 172, 22);
+    font-size: x-large;
+    cursor: pointer;
+    border-color: rgb(22, 172, 22)
+
+}
+.log{
+    margin-top: 30px;
+}
+

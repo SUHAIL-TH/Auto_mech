@@ -1,0 +1,77 @@
+.text{
+    font-style: italic ;
+    color: black;
+}
+.add{
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(220, 105, 34);
+}
+.bg{
+    background: rgb(4, 1, 1);
+}
+.up{
+    color:rgb(15, 151, 200);
+    font-style: oblique;
+    
+}
+.pt{
+    padding-top: 90px;
+}
+.phone{
+    font-style: oblique;
+    font-size: larger;
+    color: rgb(52, 43, 155);
+}
+.np{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.LST{
+    font-size: larger;
+
+}
+.phone{
+    cursor: pointer;
+}
+
+
+
+
+$(document).ready(function(){
+    $("#namecheck").hide();
+    let firstname=true;
+    $("#name").keyup(function(){
+        validatefname();
+    });
+
+    function validatefname(){
+        let fnameValue= $("#name").val();
+        if(fnameValue.lenght==""){
+            $("#namecheck").show();
+            firstname=false;
+            return false;
+        }
+        else if(fnameValue.lenght < 3 || fnameValue.lenght >10) {
+            $("#namecheck").show();
+            $("#namecheck").html("length of name must be betwwn 3 and  10");
+            firstname=false;
+            return false;
+
+        }
+        else{
+            $("#namecheck").hide();
+
+        }
+    }
+    $("#btn").click(function(){
+        validatefname();
+        if(
+            fname ==true
+        ){
+            return true;
+        }else {
+            return false;
+        }
+    })
+
+});
