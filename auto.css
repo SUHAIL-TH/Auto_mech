@@ -1,6 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sassy Frass', cursive;
+    
+
+}
 .text{
     font-style: italic ;
     color: black;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 .add{
     font-weight: bold;
@@ -31,47 +39,46 @@
 
 }
 .phone{
+   
     cursor: pointer;
 }
+.card{
+    align-items: center;
+    border-width: 0;
+}
+li{
+    list-style-type:none;
+}
+.img{
+    width: 300px;
+    height: 100px;
+}
+.imgs:hover{
+    scale: 1.1;
+}
+.card{
+    box-shadow: 1px 2px 5px black;
+}
+.imgs{
+    height: 250px;
+}
 
-
-
-
-$(document).ready(function(){
-    $("#namecheck").hide();
-    let firstname=true;
-    $("#name").keyup(function(){
-        validatefname();
-    });
-
-    function validatefname(){
-        let fnameValue= $("#name").val();
-        if(fnameValue.lenght==""){
-            $("#namecheck").show();
-            firstname=false;
-            return false;
-        }
-        else if(fnameValue.lenght < 3 || fnameValue.lenght >10) {
-            $("#namecheck").show();
-            $("#namecheck").html("length of name must be betwwn 3 and  10");
-            firstname=false;
-            return false;
-
-        }
-        else{
-            $("#namecheck").hide();
-
-        }
+.i:hover{
+    color: rgb(4, 4, 193);
+   
+}
+.card{
+    overflow: none;
+}
+@media only screen and (max-width: 600px) {
+    .about {
+     font-size: 20px;
     }
-    $("#btn").click(function(){
-        validatefname();
-        if(
-            fname ==true
-        ){
-            return true;
-        }else {
-            return false;
-        }
-    })
+  }
 
-});
+ .icon:hover{
+    scale: 1.5;
+ } 
+
+
+
